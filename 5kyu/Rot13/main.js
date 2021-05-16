@@ -31,7 +31,6 @@ function rot13(message){
 //Match capitalization from original string
     for (i=0;i<splitArr.length;i++) {
         if (message.split('')[i].toUpperCase() === message.split('')[i]) {
-            console.log(`Up the fuckin case on letter position: ${[i]}`)
             newWordArr.splice([i],1,newWordArr[i].toUpperCase())
             console.log(newWordArr)
         }
